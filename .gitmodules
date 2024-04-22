@@ -10,9 +10,6 @@
 [submodule "odoo16/extra_addons/odoo_chasqui_integration"]
 	path = odoo16/extra_addons/odoo_chasqui_integration
 	url = https://github.com/Proyecto-Chasqui/odoo_chasqui_integration.git
-[submodule "odoo16/odoo_chasqui_integration"]
-	path = odoo16/odoo_chasqui_integration
-	url = https://github.com/Proyecto-Chasqui/odoo_chasqui_integration.git
 [submodule "odoo16/extra_addons/l10n_ar_fe_qr"]
 	path = odoo16/extra_addons/l10n_ar_fe_qr
 	url = https://github.com/ctmil/l10n_ar_fe_qr.git
