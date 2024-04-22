@@ -41,6 +41,10 @@ Este comando levanta el contenedor de Odoo configurado, reconstruyendo la imagen
 
 Una vez que el contenedor está en funcionamiento, puedes acceder a tu instancia de Odoo configurada a través de tu navegador web en `http://localhost:8069`.
 
+### Activación de la Aplicación Odoo4Chasqui
+
+Una vez instalado Odoo, es necesario activar la aplicación `Odoo4Chasqui` dentro del sitio de Odoo para instalar todos los módulos necesarios para el funcionamiento del portal de ventas online "Chasqui".
+
 ## Contribuciones
 
 Las contribuciones a este proyecto son bienvenidas. Por favor, asegúrate de seguir las pautas de contribución listadas en `CONTRIBUTING.md`.
