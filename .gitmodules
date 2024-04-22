@@ -16,3 +16,6 @@
 [submodule "odoo16/partials_addons/odoo-argentina"]
 	path = odoo16/partials_addons/odoo-argentina
 	url = https://github.com/codize-app/odoo-argentina.git
+[submodule "odoo16/extra_addons/bank-statement-import"]
+	path = odoo16/extra_addons/bank-statement-import
+	url = https://github.com/OCA/bank-statement-import.git
