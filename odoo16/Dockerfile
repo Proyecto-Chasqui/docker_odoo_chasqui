@@ -36,6 +36,8 @@ RUN apt-get update && \
         python3-xlrd \
         python3-xlwt \
         xz-utils && \
+		openssl && \
+		libssl-dev && \
     if [ -z "${TARGETARCH}" ]; then \
         TARGETARCH="$(dpkg --print-architecture)"; \
     fi; \
@@ -90,6 +92,9 @@ VOLUME ["/var/lib/odoo", "/mnt/extra-addons"]
 COPY ./extra_addons /mnt/extra-addons
 COPY ./custom_addons /mnt/extra-addons/custom
 RUN sh /mnt/extra-addons/install_deps.sh
+
+COPY ./install-pyafipws.sh /usr/local/bin/install-pyafipws.sh
+RUN /usr/local/bin/install-pyafipws.sh
 
 # Expose Odoo services
 EXPOSE 8069 8071 8072
